@@ -1,0 +1,7 @@
+type Query {
+    text: String
+}
+
+type Mutation {
+    updateConfig(urls: [String]): ID
+}
